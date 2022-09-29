@@ -30,8 +30,8 @@ const IndexPage = ({ data }) => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Welcome to <b>Dedan's Blog</b> with {data.allMarkdownRemark.totalCount}{" "}
-        Blogs.
+        Welcome to the beninging ;) <b>Dedan's Blog</b> with{" "}
+        {data.allMarkdownRemark.totalCount} Blogs.
       </h1>
       {data.allMarkdownRemark.edges.map(({ node }) => {
         return (
